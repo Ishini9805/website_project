@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewpoint" content="width=device-width",initial-scale=10">
+	<meta http-equiv="X-UA-compatible" content="ie=edge">
+	<link rel="stylesheet" href="homepage.css">
+	<link rel="stylesheet" href="background.css">
+		<title>Careers</title>
+		
+		<style>
+			a { text-decoration: none;}
+* {box-sizing: border-box}
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 100px;
+  height: 100%;
+  background-image: url("image8.jpg");
+}
+
+#Working at New Life Hospital {background-color: red;}
+#Job Opportunities {background-color: green;}
+#Testimonials {background-color: blue;}
+#Gallery {background-color: orange;}
+
+.container {
+  border: 2px solid #ccc;
+  background-color: green;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 8px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+	
+	
+/* Add padding to containers */
+.container {
+  padding: 8px;
+  background-color: green;
+  width: 500px;
+  background-image: url("clinic_03.png");
+  
+  
+}
+/* Full-width input fields */
+input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.applybtn {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  
+}
+
+.applybtn:hover {
+  opacity: 1;
+}
+.accordion {
+  background-color: #AED6F1;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #AED6F1;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+  
+}
+
+.container {
+  padding: 20px;
+  background-color: skyblue;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+
+		</style>
+	</head>
+	<body>
+	<div class ="topnav">
+	<img src ="logo4.png">
+	<a href ="career.html">Career</a>
+	<a href = "faq.html">FAQ</a>
+	<a href ="contact.html">Contact</a>
+	<a href ="aboutus.html">About Us</a>
+	<a href = "homepage.html">Home</a>
+	</div>
+	<div class="Box">
+	<div class="image-container">
+	
+		<img src ="hospital2.jpg" alt="">
+		
+	</div>
+	<div class ="content">
+	<div class ="heading">
+	<h1 >Career</h1>
+	</div>
+	<img src ="logo4.png" >
+	</div>
+	</div>
+<br><br>
+<h1>Career</h1>
+<button class="tablink" onclick="openPage('Working at New Life Hospital', this, 'red')">Working at New Life Hospital</button>
+<button class="tablink" onclick="openPage('Job Opportunities', this, 'green')" id="defaultOpen">Job Opportunities</button>
+<button class="tablink" onclick="openPage('Testimonials', this, 'blue')">Testimonials</button>
+<button class="tablink" onclick="openPage('Gallery', this, 'blue')">Gallery</button>
+
+<div id="Working at New Life Hospital" class="tabcontent">
+  <h3>Working at New Life Hospital</h3>
+  <p>We believe that working at New Life Hospital offers far more than just a wealth of opportunities and great facilities as it gives you a chance to make a real difference to lives. By helping patients and those in need, we perform a service that is rewarding and fulfilling. It is a more than just a job – it is a way of living. You will be exposed to numerous opportunities to develop yourself and take up bigger challenges and opportunities to develop yourself. Behind all our great programmes, technology and facilities, our driving force is the power of life. The passionate desire to save and improve lives is at the core of all our achievements. It defines our priorities and guides our decisions.Our intention is to work in an environment which accepts and values those who act with responsibility. It provides an optimum environment in which to forge a dynamic young team, proficient and trained, to act efficiently in the field of healthcare. We focus on empowering our employees with training, support and technology. Because we appreciate that the more we give to the healthcare professionals who have entrusted their careers to us, the more they can give to the people who have entrusted their lives to us</p>
+</div>
+
+<div id="Job Opportunities" class="tabcontent">
+  <h3>Job Opportunities</h3>
+  <button class="accordion">Clinical Pharmacist</button>
+<div class="panel">
+  <h2>Clinical Pharmacist</h2>
+  <p>Clinical pharmacist role will directly report to the Head of Medical Services and will work closely with physicians,
+and other health professionals to ensure that the medications prescribed for patients contribute to the best
+possible  health outcomes.The role holder will develop clinical pharmacy programs according to policies and
+regulations and will review the medication records of patients,to determine the appropriates of medication
+therapy.<br>
+<h3>Key responsibilities :</h3>
+<ul>Ensure all medication related activities are carried out without errors.</ul>
+<ul>Develop processes to avoid delays in the medication programs and to minimize wastage of resources.</ul>
+<ul>Create and maintain high customer satisfaction by minimizing medication error & supervise the effectiveness of the discharge medication dispensing process.</ul>
+<br>
+<h3>The Ideal candidate should have:</h3>
+<ul>A bachelor's degree in Pharmacy/Pharmacology with SLMC registration</ul>
+<ul>An excellent understanding of pharmaceutical therapy and direct patient care.</ul>
+<ul>Aptitude in problem-solving and decision-making & strong professional ethics.</ul>
+<ul>2 years' experiences as a clinical pharmacist in a recognized institution</ul>
+</div>
+<br>
+<button class="accordion">In charge-Medical Officer-Critical Care</button>
+<div class="panel">
+  <h2>IN CHARGE-MEDICAL OFFICER-CRITICAL CARE</h2>
+  <p>In charge Medical officer is responsible for smooth functioning of all surgical units (Surgical wards,DTU,Endoscopy Unit and
+  Operation Theater) and delivery of high quality clinical care.He/She will make sure that proper clinical assessment is done 
+  for all patients arriving at the relevant units seeking treatment and to initiate relevant Medical Management.Emergency 
+  medical treatment and resuscitation if and when required,Routine medical assesssments by conducting ward rounds and to 
+  direct them to appropriate relevant specialist Consultants if needed.In charge Medical officer maintain documentation
+  related to all clinical activities performed for a patient and carry out and or assists in  procedures on patients.Responsible to
+  coordinate and communicate with higher management,Specialist Consultants,fellow medical officers and Nurses to provide best possible
+  patient care.</p>
+  <h3>Key responsibilities of the position</h3>
+ <ul>Ensure that the surgical unit provides available and necessary services in order to carry out the business in a sustainable manner improving capabilities
+ and capacity.</ul>
+ <ul>create and maintain a customer friendly environment in the units providing very pleasant patient experience</ul>
+ <ul>Be part of New Life Culture of Continuous Quality improvement</ul>
+ 
+ <h3>The ideal candidate should be</h3>
+ <ul>Degree in medicine from recognized university</ul>
+ <ul>Post graduate qualification in relevant field</ul>
+ <ul>5-7 years of experience in healthcare industry</ul>
+</div>
+<br>
+<button class="accordion">Staff Nurses</button>
+<div class="panel">
+  <h2>STAFF NURSES</h2>
+  <p>You wll be an integral part in our hospital and your contribution wll be crucial for the highest
+  levels of clinical outcomes.
+  Ideal candidates should be experienced nurses with a 3 years Nursing Diploma,supported
+  with an approved theory and practical course structure from a recognized institute.He/She
+  must be kindhearted and dedicate to patient care.Excellent communication and interpersonal skiils,
+  ability and willigness to learn,adjustability to changes are considered important while IT literacy
+  is a definite plus.</p>
+</div>
+
+</div>
+
+ <div id="Testimonials" class="tabcontent">
+  <h3>Testimonials</h3>
+  <div class="container">
+  <img src="image1.jpg" alt="Avatar" style="width:90px">
+  <p><span>Jeewani Rathnayaka.</span> Laboratory Services.</p>
+  <p>An institution with a good staff.</p>
+</div>
+
+<div class="container">
+  <img src="testi_03.png" alt="Avatar" style="width:90px">
+  <p><span>Dr.Roshel Fransiska.</span> Medical Services.</p>
+  <p>We feel like the hospital is our second home.</p>
+</div>
+
+<div class="container">
+<img src="testi_02.png" alt="Avatar" style="width:90px">
+<p><span>Dr.Jameel Safraz.</span>Medical Service.</p>
+<p>This company helped me to fulfill all my job and personal aspirations.</p>
+</div>
+
+</div>
+
+
+<div id="Gallery" class="tabcontent">
+  <h3>Gallery</h3>
+<!-- MAIN (Center website) -->
+<div class="main">
+<h1>New Life Hospital</h1>
+<hr>
+
+<h2>Welcome</h2>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column surgery">
+    <div class="content">
+      <img src="image5.jpg" alt="surgery" style="width:100%">
+      <h4>surgery</h4>
+    </div>
+  </div>
+  
+  <div class="column medical">
+    <div class="content">
+      <img src="image7.jpg" alt="medical service" style="width:100%">
+      <h4>Medical Service</h4>
+    </div>
+  </div>
+
+    </div>
+ 
+  
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    myFunction(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) myFunction(x[i], "show");
+  }
+}
+
+function myFunction(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function myfunction(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<br><br><br><br><br><br><br><br><br>
+
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Apply Now</h1>
+    <p>Please fill in this form to apply.</p>
+    <hr>
+
+    <label for="name"><b>Name with initials</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+    <label for="position"><b>Position</b></label>
+    <input type="text" placeholder="Enter Position" name="position" id="position" required>
+
+    <label for="phone"><b>Phone</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="phone" id="phone" required>
+	<label for="email"><b>Email</b></lable>
+	<input type="text" placeholder="Enter Email" name="email" id="email" required>
+	<input type="file" id="myFile" name="filename">
+  
+    <hr>
+ 
+
+    <button type="submit" class="applybtn">Apply</button>
+  </div>
+</form>
+ <form action="/action_page.php">
+  <div class="container">
+    <h2>Keep me updated with latest promotions</h2>
+    
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Latest Promotions
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+<div class="img2">
+<div class="tddiv">
+
+<table style="margin-left:auto; margin-right:auto;border-spacing:5em 0em;">
+
+<tr>
+<td rowspan="5"><img src ="logo4.png" width="300px" height="150px"></td>
+</tr>
+
+<tr>
+<td><a href ="Services.html" style="color:#ddd;">Services</a></td>
+<td><a href ="Doctors.html" style="color:#ddd;">Doctors</a></td>
+<td>New Life Hospital,<br>No.26, Galle Road , Colombo 6</td>
+</tr>
+
+<tr>
+<td><a href ="Facilities.html" style="color:#ddd;">Facilities</a></td>
+<td><a href ="Health Packages.html" style="color:#ddd;">Health Packages</a></td>
+<td>newlifehospital@gmail.com</td>
+</tr>
+
+<tr>
+<td><a href ="Rooms.html" style="color:#ddd;">Rooms</a></td>
+<td><a href ="Patient Registration.html" style="color:#ddd;">Patient Registration</a></td>
+<td>011 2635981</td>
+</tr>
+
+<tr>
+<td><a href ="Food & Beverages.html" style="color:#ddd;">Food & Beverages</a>.
+</td>
+<td><a href ="Channel your doctor.html" style="color:#ddd;">Channel your doctor</a></td>
+<td>011 2635982</td>
+</tr>
+
+</table>
+
+<hr style="background-color:#BF9D7F;">
+<p style="text-align:center"><b>©All Right Reserved | New Life Hospital</b></p>
+
+</div>	
+</div>
+
+</body>
+</html>

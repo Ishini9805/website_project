@@ -1,0 +1,51 @@
+
+.bill .bill1 p{
+	text-align:center;
+	margin:30px;
+	font-family:stencil;
+	color:#000000;
+	font-size:40px;
+	color:#080F5E;
+	text-shadow:5px 5px 5px #F8F8FD;
+}
+.bill img{
+	position:absolute;
+	left:20px;
+	top:-5px;
+	
+}
+.bill .bill1{position:relative;
+	left:150px;
+	margin:30px;
+	width:1000px;
+	height:500px;
+	padding:20px;
+    box-sizing: border-box;
+	border-radius:4px;
+	box-shadow:0 5px 15px rgba(0,0,0,.5);
+	background-color:#48D9D8;
+	opacity:0.9;
+}
+.bill .intro p{
+	font-family:arial;
+	font-size:20px;
+	color:black;
+	text-align:left;
+}
+.bill .intro2 p{
+	font-family:arial;
+	font-size:20px;
+	color:blue;
+	text-align:left;
+}
+.bill a{
+	font-size:20px;
+	font-family:arial;
+	text-align: left;
+}
+.Continue{
+	background-color:#ffffff;
+	color:blue;
+}
+a{
+	padding:6px 16px;}
